@@ -14,6 +14,24 @@
             color: black;
             margin: 20px auto;
             padding: 15px;
+            font-size: 20px;
+        }
+        table.krs {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            height: 80px;
+        }
+        table.krs tr, table.krs td{
+            border: 1px solid black;
+            text-align: center;
+            height: 40px;
+        }
+        table.krs th {
+            background-color: steelblue;
+            border: 1px solid black;
+            color: white;
+            height: 40px;
         }
     </style>
 </head>
@@ -21,7 +39,7 @@
     <!-- judul -->
     <h1 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 35px; color: darkslateblue;">BIODATA MAHASISWA</h1>
     <div class="body">
-        <img src="ktm.jpg" alt="profile" width="150px" style="float: left; margin-right: 10px;">
+        <img src="ktm.jpg" alt="profile" width="175px" style="float: left; margin-right: 10px;">
         <table style="border-top-style: ridge;">
             <!-- <tr>
                 <td rowspan="9" width="100px"><img src="ktm.jpg" alt="profile" width="155px"></td>
@@ -68,7 +86,67 @@
             </tr>
         </table>
     </div>
-    
+    <div class="body" style="background-color: rgba(255, 255, 255, 0.329);">
+        <h3>Jadwal KRS</h3>
+        <table class="krs">
+            <tr style=" border: 1px solid black;">
+                <th>No.</th>
+                <th>Kode Mata Kuliah</th>
+                <th>Kelompok</th>
+                <th>Matakuliah</th>
+                <th>SKS</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>A11.54101</td>
+                <td>A11.4101</td>
+                <td>Kalkulus 1</td>
+                <td>4</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>A11.54105</td>
+                <td>A11.4101</td>
+                <td>Dasar Pemrograman</td>
+                <td>4</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>A11.54302</td>
+                <td>A11.4101</td>
+                <td>Matematika Diskrit</td>
+                <td>3</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>A11.54314</td>
+                <td>A11.4101</td>
+                <td>Pemrograman Berbasis Web</td>
+                <td>2</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>A11.54403</td>
+                <td>A11.4101</td>
+                <td>Organisasi Dan Arsitektur Komputer</td>
+                <td>3</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>AF201704</td>
+                <td>A11.4101</td>
+                <td>Dasar Dasar Komputasi</td>
+                <td>2</td>
+                <td>B</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
