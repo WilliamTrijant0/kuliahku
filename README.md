@@ -1,2 +1,3 @@
 # kuliahku
-#hello my name william
+# Nama  : WILLIAM TRIJANTO DWIPUTRA TJAHJONO
+# NIM   : A11.2021.13240
